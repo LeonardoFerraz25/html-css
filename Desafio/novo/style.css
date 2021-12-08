@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #f8e7c6, #fde7be);
+    background-attachment: fixed;
+}
+    
+header{
+    background-color: dimgray;
+    color: orange;
+    text-align: center;  
+}
+h1#T{
+    text-decoration: underline orange;
+    text-indent: 50px;
+}
+div{
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    
+}
+div:hover{
+    color: orange;
+}
+div > p{
+    color: black;
+    display: none;
+    text-align: justify;
+    
+}
+div:hover > p{
+    display: block;
+    background-color: silver;
+    font-size: 20px;
+}

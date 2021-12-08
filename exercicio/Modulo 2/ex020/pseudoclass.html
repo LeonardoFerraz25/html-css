@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: yellow;
+            width: 800px;
+            color: tomato;
+            font-family: fantasy;
+            font-size: 5em;
+        }
+        div:hover{
+            color: chartreuse;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando pseudo Classes</h1>
+    <div>passe o mouse aqui
+        <p><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-03-pseudo-classes-em-css/">TEXTO SURPRESA !!!</a></p>
+    </div>
+    <p>fim !</p>
+</body>
+</html>

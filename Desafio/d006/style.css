@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(248, 104, 52);
+}
+p{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+}
